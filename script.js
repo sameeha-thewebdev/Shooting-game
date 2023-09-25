@@ -138,7 +138,7 @@ function spawnEnemies() {
       y: Math.sin(angle),
     };
     enemies.push(new Enemy(x2, y2, radius, color, velocity));
-  }, 2500);
+  }, 1500);
 }
 
 let animationId;
